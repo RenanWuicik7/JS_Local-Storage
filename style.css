@@ -1,0 +1,132 @@
+html {
+    background: radial-gradient(farthest-corner at right top,#A8E890, #131b19);
+    height: 100%;
+    font-family: 'Roboto', cursive;
+}
+
+.conteudo {
+    padding: 10vh 3em 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+}
+
+.principal {
+    flex-grow: 1;
+    flex-basis: auto;
+    min-width: 600px;
+    padding: 4em 2em 2em;
+    box-sizing: border-box;
+    display: flex;
+    background: #B6E2A1;
+    border-radius: 10px;
+    gap: 2em;
+}
+  
+.mochila {
+    min-width: 170px;
+    max-width: 170px;
+    height: 180px;
+    padding-top: 80px;
+    background-color: #829460;
+    box-shadow: inset 0 6px 0 2px #90A17D, 0 -93px 0 -77px #3b1045, 0 -93px 0 -72px #829460, 0 -93px 0 -68px #2d423c;
+    background-image: linear-gradient(to right, transparent 5px, transparent 20px, transparent 1px, transparent 25px, transparent 5px, transparent 20px, transparent 20px, transparent 86px, #90B77D 45px, #90B77D 230px, transparent 25px, transparent 172px );
+    background-position: center 254px;
+    background-size: 305px 6px;
+    background-repeat: repeat-x; 
+    border: 5px solid #425F57;
+    border-radius: 85px 85px 44px 44px;
+    display: inline-block;
+    vertical-align: top;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+  
+.mochila:before, .mochila:after {
+    display: block;
+    content: '';
+    position: absolute;
+  }
+  
+.mochila:before {
+    height: 75px;
+    width: 118px;
+    background-image: radial-gradient(circle closest-corner at 13px 29px , #557153, #7D8F69 2px, transparent 2px, transparent), radial-gradient(circle closest-corner at 13px 29px , #557153, #557153 4px, transparent 4px, transparent), linear-gradient(to bottom, transparent 10px, transparent 15px, #557153 5px, #557153 18px, transparent 18px, transparent 100px), linear-gradient(to right, #42855B 10px, #42855B 10px, transparent 10px, transparent 16px, #90B77D 9px, #90B77D 50px), linear-gradient(to bottom, #557153 8px, #557153 16px, #425F57 8px, #425F57 30px, #A8E890 20px, #A8E890 72px, #A8E890 10px, #A8E890 57px, #A8E890 5%);
+    margin-left: 22px;
+    margin-top: 58px;
+    border: 4px solid #36574d; 
+    border-radius: 11px;
+    box-shadow: 0 4px 0 0 #90B77D, inset 0px 4px 1px 0 #CFFF8D;
+    content: '||';
+    color: transparent;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    z-index: 1;
+    text-shadow: rgb(0, 0, 0) -2px -86px 0px;
+    font-size: 14px;
+}
+  
+.mochila:after {
+    margin-left: 67px;
+    margin-top: -30px;
+    background: #04b177;
+    width:26px;
+    height:26px;
+    border: 3px solid #557153;
+    border-radius: 3px;
+    transform: rotate(45deg);
+}
+
+.adicionar {
+    width: 100%;
+}
+
+.adicionar input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-radius: 10px;
+    border: 2px solid #003b3b;
+}
+
+.adicionar label {
+    display: block;
+}
+
+.cadastrar {
+    background-color: #005555;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.lista {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    list-style: none;
+    padding: 0.6em 2em;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+
+.item strong {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    Background: #019457cb;
+    font-weight: 400;
+}
+
